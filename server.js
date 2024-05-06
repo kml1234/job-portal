@@ -35,8 +35,8 @@ const options = {
       },
       servers: [
         {
-               url: "http://localhost:8080",
-             // url: "https://nodejs-job-portal-app.onrender.com"
+              // url: "http://localhost:8080",
+              url: "https://job-portal-1z2f.onrender.com"
         },
       ],
     },
@@ -67,7 +67,7 @@ app.use("/api-doc", swaggerUi.serve, swaggerUi.setup(spec));
 app.use(errroMiddelware);
 
 app.get('/',(req,res)=>{
-    res.send('this is homepage by kamal verma  l')
+    res.send('It is the backend page ')
 })
 
 
