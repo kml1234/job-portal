@@ -71,9 +71,9 @@ app.get('/',(req,res)=>{
 })
 
 
-app.listen( port ,()=>{
-    console.log(`server is running in ${process.env.DEV_MOD} at port number ${port}`.bgRed.white)
-});
+// app.listen( port ,()=>{
+//     console.log(`server is running in ${process.env.DEV_MOD} at port number ${port}`.bgRed.white)
+// });
 
 
 
